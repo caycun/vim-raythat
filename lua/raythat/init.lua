@@ -49,7 +49,7 @@ local function getLanguage()
 end
 
 -- Takes a screenshot of your code 
--- themes: candy, breeze, midnight, unset
+-- themes: candy, breeze, midnight, sunset, raindrop, meadow, falcon, crimson
 local function activate(theme)  
 	local url = "https://ray.so/?colors=" .. theme .. "t&background=true&darkMode=true&padding=64&title=" .. vim.fn.expand("%.p") .. "&code=" .. generate_encoded() .. "&language=" .. getLanguage() 
 	vim.cmd("let @+=\""..url.."\"")	

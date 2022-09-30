@@ -1,0 +1,2 @@
+# vim-raythat
+Test plugin
